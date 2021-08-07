@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="usr.oauth2.0" />
+        <module name="bankacc.query.api" />
+        <module name="api-gateway" />
+        <module name="bankacc.core" />
+        <module name="usr.core" />
+        <module name="bankacc.cmd.api" />
+        <module name="usr.cmd.api" />
+        <module name="usr.query.api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="bankacc.cmd.api" options="-parameters" />
+      <module name="bankacc.core" options="-parameters" />
+      <module name="bankacc.query.api" options="-parameters" />
+      <module name="usr.cmd.api" options="-parameters" />
+      <module name="usr.core" options="-parameters" />
+      <module name="usr.oauth2.0" options="-parameters" />
+      <module name="usr.query.api" options="-parameters" />
+    </option>
+  </component>
+</project>
